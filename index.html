@@ -15,31 +15,14 @@
   <body>
     <!-- .container>.box.box-${box}*10 -->
     <header class="header">
-      <picture>
-        <source
-          media="(min-width: 768px)"
-          srcset="./assets/img/desktop/image-header.jpg"
-        />
-        <source
-          media="(min-width: 360px)"
-          srcset="./assets/img/mobile/image-header.jpg"
-        />
-        <img
-          id="header-menu"
-          class="header-menu"
-          src="./assets/img/mobile/image-header.jpg"
-          alt="header-menu"
-        />
-      </picture>
-      <h1 class="introduction-title">WE ARE CREATIVES</h1>
-      <img class="arrow" src="./assets/img/icon-arrow-down.svg" alt="" />
-      <img
-        id="icon-menu"
-        class="icon-menu"
-        src="./assets/img/icon-hamburger.svg"
-        alt="icon-menu"
-      />
-      <img class="title-logo" src="./assets/img/logo.svg" alt="" />
+      <div class="container-icon">
+        <img class="title-logo" src="./assets/img/logo.svg" alt="" />
+        <img id="icon-menu" class="icon-menu" src="./assets/img/icon-hamburger.svg" alt="icon-menu" />
+      </div>
+      <div class="container-title">
+        <h1 class="introduction-title">WE ARE CREATIVES</h1>
+        <img class="arrow" src="./assets/img/icon-arrow-down.svg" alt="" />
+      </div>
       <nav>
         <ul id="menu" class="menu">
           <li class="menu-item">
@@ -56,23 +39,25 @@
           </li>
         </ul>
       </nav>
+    </header>
+
+    <main>
       <div class="container">
         <div class="box-1">
-          <img src="./assets/img/mobile/image-transform.jpg" alt="" />
+          <img class="egg" src="./assets/img/mobile/image-transform.jpg" alt="" />
         </div>
 
         <div class="box-2">
           <div class="position-article box-2-text">
             <h2 class="subtitle">Transform your brand</h2>
-            <span class="information">
-              We are a full-service creative agency specializing in helping
-              brands grow fast. Engage your clients through compelling visuals
-              that do most of the marketing for you.
+            <span class="information information-margin">
+              We are a full-service creative agency specializing in helping brands grow fast. Engage your clients
+              through compelling visuals that do most of the marketing for you.
             </span>
-            <div class="color-img-egg"></div>
-            <a href="#" class="pag-content">LEARN MORE</a>
+            <a href="#" class="pag-link">LEARN MORE</a>
           </div>
         </div>
+
         <div class="box-3">
           <img src="./assets/img/mobile/image-stand-out.jpg" alt="" />
         </div>
@@ -81,47 +66,36 @@
           <div class="position-article box-4-text">
             <h2 class="subtitle">Stand out to the right audience</h2>
             <span class="information"
-              >Using a collaborative formula of designers, researchers,
-              photographers, videographers, and copywriters, we’ll build and
-              extend your brand in digital places.
+              >Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+              we’ll build and extend your brand in digital places.
             </span>
-            <div class="color-img-coup"></div>
-            <a href="#" class="pag-content">LEARN MORE</a>
+            <a href="#" class="pag-link pag-link-color">LEARN MORE</a>
           </div>
         </div>
 
         <div class="box-5">
-          <img
-            class="orange"
-            src="./assets/img/mobile/image-graphic-design.jpg"
-            alt=""
-          />
+          <img class="orange" src="./assets/img/mobile/image-graphic-design.jpg" alt="" />
           <div class="position-article box-5-text">
             <h2 class="subtitle subtitle-size">Graphic Design</h2>
             <span class="information information-color-cherry"
-              >Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients’
-              attention.</span
+              >Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+              potential clients’ attention.</span
             >
           </div>
         </div>
 
         <div class="box-6">
-          <img
-            class="cherry"
-            src="./assets/img/mobile/image-photography.jpg"
-            alt=""
-          />
+          <img class="cherry" src="./assets/img/mobile/image-photography.jpg" alt="" />
           <div class="position-article box-6-text">
-            <h2 class="subtitle">Photography</h2>
+            <h2 class="subtitle subtitle-color-orange">Photography</h2>
             <span class="information information-color-orange"
-              >Increase your credibility by getting the most stunning,
-              high-quality photos that improve your business image.</span
+              >Increase your credibility by getting the most stunning, high-quality photos that improve your business
+              image.</span
             >
           </div>
         </div>
       </div>
-    </header>
+    </main>
     <script src="./js/scripts.js"></script>
   </body>
 </html>
