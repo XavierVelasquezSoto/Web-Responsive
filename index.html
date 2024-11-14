@@ -44,7 +44,11 @@
     <main>
       <div class="container">
         <div class="box-1">
-          <img class="egg" src="./assets/img/mobile/image-transform.jpg" alt="" />
+          <picture>
+            <source media="(min-width: 375px)" srcset="./assets/img/mobile/image-transform.jpg" />
+            <source media="(min-width: 768px)" srcset="./assets/img/desktop/image-transform.jpg" />
+            <img class="egg" src="./assets/img/mobile/image-transform.jpg" alt="" />
+          </picture>
         </div>
 
         <div class="box-2">
