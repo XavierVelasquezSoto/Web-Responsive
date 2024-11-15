@@ -608,10 +608,17 @@ body {
   height: 350px;
 }
 
-/* @media screen and (width > 768px) {
+@media screen and (width > 768px) {
   .content-footer{
-    height: 797px;
+    height: 350px;
   }
+}
+
+/* .footer-box{
+  width: 297px;
+  height: 206px;
+  margin-top: 64px;
+  margin-left: 39px;
 } */
 
 .footer-logo-links{
@@ -626,11 +633,27 @@ body {
   left: 96px;
 }
 
+@media screen and (width > 768px){
+  .footer-logo-links{
+  top: 72px;
+  left: 628px;
+  }
+}
+
 .footer-links{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 137px;
+}
+
+@media screen and (width > 768px){
+  .footer-links{
+    width: 300px;
+    height: 25px;
+    align-items: center;
+    margin-left: 570px;
+  }
 }
 
 .footer-help{
@@ -650,37 +673,39 @@ body {
   margin-left: 104px;
   width: 164px;
   height: 20px;
-  
+}
+
+@media screen and (width > 768px){
+  .footer-logo{
+    margin-left: 636px;
+  }
 }
 
 .logo-1{
   background-image: url(../assets/img/icon-facebook.svg);
   background-size: cover;
   width: 20px;
-  height: 20px;
-  
-  
+  height: 20px;  
+  cursor:pointer
 }
 .logo-2{
   background-image: url(../assets/img/icon-instagram.svg);
   background-size: cover;
   width: 20px;
   height: 20px;
-  
-  
+  cursor:pointer
 }
 .logo-3{
   background-image: url(../assets/img/icon-twitter.svg);
   background-size: cover;
   width: 20px;
   height: 20px;
-
-
+  cursor:pointer
 }
 .logo-4{
   background-image: url(../assets/img/icon-pinterest.svg);
   background-size: cover;
   width: 20px;
   height: 20px;
-
+  cursor:pointer
 }
