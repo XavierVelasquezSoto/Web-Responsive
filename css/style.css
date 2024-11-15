@@ -604,13 +604,83 @@ body {
 /* footer */
 
 .content-footer{
-  background-color: #458D7E;
+  background-color: #90D4C6;
   height: 350px;
 }
 
-@media screen and (width > 768px) {
+/* @media screen and (width > 768px) {
   .content-footer{
     height: 797px;
   }
+} */
+
+.footer-logo-links{
+  position: relative;
+  margin: 0;
+  font-weight: 900;
+  color: #2C7566;
+  width: 170px;
+  height: 33px;
+  font-size: 40px;
+  top: 64px;
+  left: 96px;
 }
 
+.footer-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 137px;
+}
+
+.footer-help{
+  color: #458D7E;
+  font-size: 18px;
+  letter-spacing: -0.13px;
+  line-height: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 88px;
+  margin-left: 104px;
+  width: 164px;
+  height: 20px;
+  
+}
+
+.logo-1{
+  background-image: url(../assets/img/icon-facebook.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  
+  
+}
+.logo-2{
+  background-image: url(../assets/img/icon-instagram.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  
+  
+}
+.logo-3{
+  background-image: url(../assets/img/icon-twitter.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+
+}
+.logo-4{
+  background-image: url(../assets/img/icon-pinterest.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+}
