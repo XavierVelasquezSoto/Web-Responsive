@@ -158,6 +158,10 @@ body {
     top: 34px;
     color: #fff;
   }
+
+  .menu::after{
+    display: none;
+  }
 }
 
 .contact-yellow {
@@ -316,6 +320,12 @@ body {
   z-index: -1;
 }
 
+
+.pag-link:hover:after{
+  background-color: #fad400;
+  opacity: 1;
+}
+
 .box-3 {
   background-image: url(../assets/img/mobile/image-stand-out.jpg);
   background-repeat: no-repeat;
@@ -335,6 +345,10 @@ body {
 }
 
 .pag-link-color::after {
+  background-color: #fe7766;
+}
+
+.pag-link-color:hover:after{
   background-color: #fe7766;
 }
 
